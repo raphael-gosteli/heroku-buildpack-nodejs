@@ -5,5 +5,4 @@ if yarn --version > /dev/null 2>&1; then
   cd "$BUILD_DIR" && yarn test
 else
   cd "$BUILD_DIR" && npm test
-  echo "after test"
 fi
